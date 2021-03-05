@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.NemSicaklikActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="40dp">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="315dp"
+        android:layout_height="145dp"
+        android:gravity="center"
+        android:text="Yükleniyor..."
+        android:textColor="#090101"
+        android:textColorHighlight="#EF0B0B"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <Button
+            android:id="@+id/sicaklikArttır"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Sıcaklık Arttır"
+            android:padding="5dp"/>
+
+        <Button
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+        <Button
+            android:id="@+id/sicaklikDusur"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Sıcaklık Düşür"
+            android:padding="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <Button
+            android:id="@+id/nemArttır"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Nem Arttır"
+            android:paddingRight="5dp"/>
+
+        <Button
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+        <Button
+            android:id="@+id/nemDusur"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Nem Düşür"
+            android:paddingLeft="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.anaMenu"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/imageViewBocek"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:onClick="bocek"
+        android:text="Böcek Analiz"
+        android:textSize="30dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/imageViewNem"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:onClick="nemsicaklik"
+        android:text="Nem ve sıcaklık"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/imageViewPil"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:onClick="pil"
+        android:text="Pil Durumu"
+        android:textSize="30dp"
+        />
+
+</LinearLayout>

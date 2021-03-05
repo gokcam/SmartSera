@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "338501289705",
+    "firebase_url": "https://tarimbitirmeprojesi-default-rtdb.firebaseio.com",
+    "project_id": "tarimbitirmeprojesi",
+    "storage_bucket": "tarimbitirmeprojesi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338501289705:android:965287262e0df989db5278",
+        "android_client_info": {
+          "package_name": "com.gok.bitirmeprojesi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338501289705-eatjt7s15a8enen48i73iuns8a9k2qp5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSITcCP6jI4q00gzmxFy3bzrAe60F2wTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338501289705-eatjt7s15a8enen48i73iuns8a9k2qp5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338501289705:android:959e6271258c939bdb5278",
+        "android_client_info": {
+          "package_name": "com.gok.smartsera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338501289705-eatjt7s15a8enen48i73iuns8a9k2qp5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSITcCP6jI4q00gzmxFy3bzrAe60F2wTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338501289705-eatjt7s15a8enen48i73iuns8a9k2qp5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
